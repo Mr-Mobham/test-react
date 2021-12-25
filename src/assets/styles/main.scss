@@ -1,0 +1,42 @@
+@import "_colors.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn{
+    display: inline-block;
+    background: $dark;
+    color: $white;
+    padding: 0.4rem 1.3rem;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    transition: opacity .2s ease-in;
+    outline: none;
+    width: 100%;
+    margin: 1.2rem 0;
+    min-height:38px;
+}
+
+.container{
+    max-width: 1050px;
+    margin-right: auto;
+    margin-left:auto;
+    overflow: hidden;
+    padding: 0 2rem;
+}
+
+.content-loading{
+    position: absolute;
+    top:14em;
+    right:0;
+    left:0;
+    margin-right: auto;
+    margin-left: auto;
+    background: red;
+    z-index: 1;
+}
